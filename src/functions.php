@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once 'config/db_config.php';
 
 function get_personal_info() {
     global $conn;

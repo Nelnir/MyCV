@@ -1,16 +1,16 @@
 <?php
-require_once 'functions.php';
-$info = get_personal_info();
-//$personal_info_data = $info->fetch(PDO::FETCH_ASSOC);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+require_once 'src/functions.php';
+$info = get_personal_info();
+//$personal_info_data = $info->fetch(PDO::FETCH_ASSOC);
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Marcin Dzieciątkowski</title>
 </head>
 <body>
