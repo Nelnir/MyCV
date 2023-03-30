@@ -4,7 +4,7 @@ require_once 'config/db_config.php';
 function get_personal_info() {
     global $conn;
 
-    $sql = "SELECT id, first_name, last_name, email, phone, about FROM personal_info";
+    $sql = "SELECT * FROM personal_info";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
 
